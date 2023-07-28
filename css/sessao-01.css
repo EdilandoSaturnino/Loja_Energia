@@ -1,0 +1,97 @@
+
+.sessao-01 > .container{
+
+    max-width: 1200px;/* Largura maxima do container */
+    padding: 0 2%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sessao-01{
+
+    padding: 30px 0;
+}
+
+.sobre-loja{
+
+    padding: 0 10px;
+    margin-top: 30px;
+}
+
+.sobre-loja h4{
+
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    position: relative;
+   
+}
+
+.sobre-loja p{
+
+    margin-top: 15px;
+    color: white;
+    font-size: 17px;
+    line-height: 27px;
+    position: relative;
+   
+}
+
+.sessao-01 h1{
+
+    color: white;
+    font-size: 20px;
+    position: relative;
+    margin: 20px 0;
+}
+
+.sessao-01 img{
+
+    width: 500px;
+    animation: surgir 0.5s linear;
+    border-radius: 15px;
+}
+
+.container_form{
+
+    position: relative;
+    bottom: 10px;
+}
+
+.container_form input[type=email]{
+
+    width: 280px;
+    height: 45px;
+    border-radius: 5px;
+    border: 0;
+    padding-left: 13px;
+    margin-top: 15px;
+    background-color: rgba(109, 86, 191, 0.9);
+    color: white;
+} 
+
+.container_form input[type=email]:focus{outline: 0;}
+
+.container_form input[type=submit]{
+
+    background-color: #6D56BF;
+    color: white;
+    margin: 0 0 0 30px;
+    border-radius: 100px;
+    width: 100px;
+    height: 45px;
+    cursor: pointer;
+    border: 0;
+}
+
+.container_form h6{
+
+    color: white;
+    font-size: 20px;
+}
+
+::placeholder{
+
+    color: white;
+}

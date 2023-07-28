@@ -1,0 +1,37 @@
+
+.sessao-05 > .container{
+
+    max-width: 950px;
+    min-height: 350px;
+    position: relative;
+}
+
+.sessao-05 img{
+
+    border-radius: 15px;
+    width: 100%;
+}
+
+.barra-03{
+
+    background-color: rgba(106, 252, 243, 0.5);
+    border: 2px solid #6AFCF3;
+    border-radius: 30px;
+}
+
+.container h5{
+
+    color: white;
+    font-size: 23px;
+    position: relative;
+    text-align: center;
+    margin-top: 35px;
+    bottom: 20px;
+}
+
+.patrocinio{
+
+    padding: 25px;
+    justify-content: space-between;/* Define como o navegador distribui o espaço entre e ao redor dos itens de conteúdo ao longo do eixo principal de um container flex e o eixo embutido de um container grid. */
+    display: flex;
+}
