@@ -1,0 +1,134 @@
+#about-me>.container{
+
+    max-width: 1200px;
+    padding: 0 2%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#about-me{
+
+    padding: 3rem 0;
+}
+
+.about-grid{
+
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.about-grid h4{
+
+    font-size: 2rem;
+    text-align: center;
+}
+
+.about-grid p{
+
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin: 1rem 0;
+}
+
+#about-me h1{
+
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+#about-me img{
+
+    width: 26rem;
+    border-radius: 1.5rem;
+}
+
+::placeholder {
+
+    color: white;
+}
+
+.container_form input[type=email] {
+
+    width: 20rem;
+    height: 3rem;
+    border-radius: .5rem;
+    border: 0;
+    padding-left: 1rem;
+    margin-top: .5rem;
+    background-color: rgba(109, 86, 191, 0.5);
+    color: white;
+    outline: 0;
+}
+
+.container_form input[type=submit] {
+
+    background-color: #6D56BF;
+    color: white;
+    margin-left: 3rem;
+    border-radius: 1.5rem;
+    width: 6rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .about-grid {
+
+        text-align: center;
+    }
+
+    .about-grid h4{
+
+        margin-top: 1rem;
+    }
+
+    #about-me img {
+
+        display: none;
+    }
+
+    #about-me{
+        margin: 1rem 0;
+    }
+
+    .img_mobile {
+
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/logotipo.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position: center;
+        border-radius: 2rem;
+    }
+
+    .container_form input[type=email] {
+
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+    .container_form input[type=submit] {
+
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #about-me img {
+
+        display: none;
+    }
+
+    #about-me {
+
+        padding: 0;
+    }
+
+}

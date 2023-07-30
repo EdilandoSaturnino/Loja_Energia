@@ -1,0 +1,29 @@
+#footer{
+
+    margin: 2rem 0;
+}
+
+.outline-footer{
+
+    height: 8rem;
+    background-color: rgba(106, 252, 243, 0.2);
+    border: 1px  solid #6AFCF3;
+    padding: 1rem;
+    text-align: center;
+}
+
+.contact p{
+
+    color: white;
+    padding: .2rem;
+    text-align: center;
+    margin: .5rem 0;
+}
+
+.contact i{
+
+    padding: 1rem;
+    color: white;
+    font-size: 3rem;
+    position: relative;
+}

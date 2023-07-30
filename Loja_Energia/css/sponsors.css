@@ -1,0 +1,50 @@
+#sponsors > .container {
+
+    max-width: 950px;
+    min-height: 290px;
+}
+
+#sponsors img{
+
+    border-radius: 1rem;
+}
+
+.outline-cyan{
+
+    background-color: rgba(106, 252, 243, 0.5);
+    border: 2px solid #6AFCF3;
+    border-radius: 2rem;
+}
+
+.sponsorship{
+
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px){
+
+    #sponsors{
+    
+        margin: 2rem 0;
+    }
+
+    .outline-cyan{
+
+        display: flex;
+    }   
+
+    .sponsorship{
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sponsorship img{
+
+        width: 15rem;
+        margin: .5rem 0;
+    }
+
+}
